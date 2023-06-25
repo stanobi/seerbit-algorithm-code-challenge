@@ -1,0 +1,5 @@
+version: "3.7"
+services:
+  algorithm-app:
+    image: algorithm-app
+    build: .
