@@ -35,7 +35,7 @@ class MergeIntervalPairTest {
     }
 
     @Test
-    void given_overlaping_interval_when_collapseOverlap_should_returnSameIntervals() {
+    void given_overlapping_interval_when_collapseOverlap_should_returnSameIntervals() {
 
         List<TimestampInterval> intervals = List.of(
                 new TimestampInterval(Timestamp.valueOf(LocalDateTime.of(2018, 5, 1, 10, 10, 10)), Timestamp.valueOf(LocalDateTime.of(2018, 5, 2, 12, 10, 10))),
